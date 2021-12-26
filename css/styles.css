@@ -63,8 +63,10 @@
 
 .outer .two{
     color: #9dcee2;
+    border-radius: 20px 20px 10px 10px;
 }
 
 .outer .three{
     color: #80ed99;
+    border-radius: 30px 60px 30px 60px;
 }
