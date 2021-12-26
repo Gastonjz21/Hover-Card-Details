@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.outer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.outer .box {
+    width: 280px;
+    height: 350px;
+    background: #212121;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px #ddd;
+}
+
+.outer .box h2 {
+    margin-bottom: 20px;
+}
+
+.outer .box .cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.outer .box .cover span {
+    display: block;
+    position: absolute;
+    font-size: 6rem;
+    font-weight: 900;
+    color: #ddd;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+.box:hover .cover{
+    height: 30%;
+}
+
+.box:hover .cover span{
+    font-size: 4rem;
+}
+
+.outer .one{
+    color: #fff;
+}
+
+.outer .two{
+    color: #9dcee2;
+}
+
+.outer .three{
+    color: #80ed99;
+}
